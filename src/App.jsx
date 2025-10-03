@@ -194,7 +194,7 @@ export default function ConsultaCEP() {
 
         {!endereco && !erro && (
           <div className="alert info">
-            <span>💡</span>
+            <div style={{ fontSize: '20px' }}>💡</div>
             <p>
               <strong>Dica:</strong> O CEP é buscado automaticamente ao sair do campo, pressionar Enter ou ao clicar no botão Buscar.
             </p>

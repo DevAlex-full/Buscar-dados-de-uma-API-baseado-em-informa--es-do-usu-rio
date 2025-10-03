@@ -155,10 +155,12 @@ body {
   border: 1px solid #bfdbfe;
   color: #1e40af;
   font-size: 14px;
+  align-items: center;
 }
 
-.alert.info strong {
-  font-weight: 600;
+.alert.info div {
+  flex-shrink: 0;
+  line-height: 1;
 }
 
 .result {
